@@ -1,5 +1,5 @@
 CREATE TABLE book(
-    book_id INT PRIMARY KEY AUTO_INCREMENT,
+    book_id SERIAL PRIMARY KEY,
     title VARCHAR(50),
     author VARCHAR(30),
     price DECIMAL(8, 2),
